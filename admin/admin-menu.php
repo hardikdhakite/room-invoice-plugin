@@ -38,17 +38,14 @@ add_action('admin_menu', function () {
     );
 });
 
-function room_invoice_list_page()
-{
+function room_invoice_list_page() {
     require_once plugin_dir_path(__FILE__) . 'invoice-list.php';
 }
 
-function room_invoice_add_page()
-{
+function room_invoice_add_page() {
     require_once plugin_dir_path(__FILE__) . 'invoice-form.php';
 }
 
-function room_invoice_settings_page()
-{
+function room_invoice_settings_page() {
     require_once plugin_dir_path(__FILE__) . 'settings.php';
 }
